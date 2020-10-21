@@ -7,6 +7,7 @@ Object detection is one of the computer technologies, which connected to the ima
 People detection and head counting is one of the classical albeit challenging computer vision application. For this problem, given a group selfie/photo, you are required to count the number of heads present in the picture. You are provided with a training set of images with coordinates of bounding box and head count for each image and need to predict the headcount for each image in the test set.
 
 # Data
+https://datahack.analyticsvidhya.com/contest/vista-codefest-computer-vision-1/#ProblemStatement
 1. train.zip: Contains 2 csvs and 1 folder containing image data
   1. train.csv - ['Name', 'HeadCount'] (contains headcount value for each training image)
   2. bbox_train.csv - ['Name', 'width', 'height' , 'xmin', 'ymin', 'xmax', 'ymax', 'class'] (contains co-ordinates of each head in the train image, located by the          formation of a bound-box around the head)
